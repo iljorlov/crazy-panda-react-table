@@ -50,8 +50,6 @@ export const Table = ({
     }
   };
 
-  console.log("id sorting: ", idSorting);
-  console.log("title sorting: ", titleSorting);
   return (
     <div className="table-container">
       <h1 className="current-page-container">Page: {currentPage}</h1>
