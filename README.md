@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Тестовое задание для Crazy Panda
+Таблица с поиском, сортировкой по столбцам и пагинацией 
+
+Демо: https://crazy-panda-react-table.herokuapp.com/
+
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
