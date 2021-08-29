@@ -65,7 +65,7 @@ export const Page = ({ data, currentPage, setCurrentPage }) => {
 
   // filtering by search entry
   let filteredData = sortedData.filter((entry) =>
-    entry.title.includes(searchEntry)
+    entry.title.includes(searchEntry.toLowerCase())
   );
 
   let currentPageData = [];
