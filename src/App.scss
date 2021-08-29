@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+thead,
+tfoot {
+  background-color: #696969;
+  color: #fff;
+}
+
+tbody {
+  background-color: #f2f2f2;
+}
+
+caption {
+  padding: 10px;
+  caption-side: bottom;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid rgb(200, 200, 200);
+  letter-spacing: 1px;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+}
+
+td,
+th {
+  border: 1px solid rgb(190, 190, 190);
+  padding: 5px 10px;
+}
+
+td {
+  text-align: center;
+}
+
+img {
+  height: 75px;
+  width: 75px;
+}
+
+.loader-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 4rem;
+}
+
+.search-panel {
+  display: flex;
+  height: 20vh;
+  min-height: 8rem;
+  justify-content: center;
+  align-items: center;
+
+  input {
+    height: 3rem;
+    width: 50%;
+    font-size: 2rem;
+    padding: 0rem 1rem;
+  }
+}
+
+.pagination-container {
+  background-color: rgb(255, 255, 255);
+  height: 5rem;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination-block {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 3rem;
+  min-width: 30rem;
+}
+
+.pagination-link {
+  padding: 1rem 0rem;
+  cursor: pointer;
+  width: 0.75rem;
+}
+
+.table-container {
+  margin: 0rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  .current-page-container {
+    margin: 1rem 0rem;
+    width: 100%;
+  }
+  table {
+    width: 100%;
+  }
+}
+
+.selected-page {
+  font-size: larger;
+  font-weight: bold;
+}
+
+#id-col {
+  display: flex;
+  border: none;
+  cursor: pointer;
+}
+#title-col {
+  cursor: pointer;
+}
+
+.next-prev {
+  cursor: pointer;
+}
